@@ -1,0 +1,61 @@
+html{
+  background-color: grey;
+  text-align: center;
+}
+h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 60px;
+}
+form{
+  border: 1px solid turquoise;
+  width: 500px;
+  margin: 60px auto;
+  padding: 10px 20px;  
+  display: flex;
+}
+input{
+  flex-grow: 1;
+  padding: 8px  8px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+  padding: 10px 20px;
+  background-color: darkcyan;
+  margin: 10px;
+  border: 0px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+}
+button:hover{
+  background-color: red;
+}
+button:active{
+  background-color: darkred;
+}
+.todolist{
+  border: 1px solid turquoise;
+  width: 500px;
+  margin: 60px auto;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+input[type = "checkbox"]{
+  transform: scale(1.5) translateY(-1px);
+  margin: 0px 10px;
+}
+#submitedit{
+  flex-grow: 1;
+  padding: 2px  2px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
